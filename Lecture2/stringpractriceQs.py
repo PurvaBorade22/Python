@@ -4,3 +4,6 @@ length = len(str)
 print("lenghth of your full name is: ", length)
 
 #Q2 count the character
+str = "My$ name$ is$ Purva$ Borade$"
+count= str.count("$")
+print(count)
