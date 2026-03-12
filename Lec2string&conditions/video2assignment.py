@@ -21,5 +21,10 @@
 
 ########################## divisible by 7
 
-numbers1 = int(input("Enter a number : "))
-div = number 
+number1 = int(input("Enter a number : "))
+div = number1 % 7
+
+if div == 0:
+    print("number is divisible by 7")
+else:
+    print("Number is not divisible by 7")
