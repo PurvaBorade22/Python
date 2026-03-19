@@ -5,5 +5,5 @@ print(len(collection ))
 
 #if we want to create empty set 
 
-collection1 = set ()
+collection1 = set () #empty set syntax
 print(type(collection))
