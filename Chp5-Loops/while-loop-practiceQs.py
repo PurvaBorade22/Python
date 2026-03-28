@@ -33,3 +33,16 @@ idx1 = 0
 while idx1 <len(fruits):
     print(fruits[idx1])
     idx1 += 1
+
+
+###Q5
+numbers = (1,4,9,16,36,49,64,81,100,36,36)
+x = int(input("Enter a number: "))
+i= 0
+while i < len(numbers):
+    if(numbers[i] == x):
+        print("found at idx:", i)
+    else:
+        print("founding.....")
+    i += 1
+
