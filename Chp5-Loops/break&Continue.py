@@ -1,4 +1,4 @@
-#brak statement basic code
+#brak statement basic code######
 #1
 i = 1
 while i <= 5:
@@ -17,4 +17,15 @@ while i < len(numbers):
         break
     else:
         print("founding.....")
+    i += 1
+
+
+###Continue loop####
+
+i = 1
+while i <= 10:
+    if(i%2 == 0):    #print odd number
+        i += 1
+        continue
+    print(i)
     i += 1
