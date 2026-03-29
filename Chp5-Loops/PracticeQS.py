@@ -1,7 +1,7 @@
-#Q1
-# list = [1,4,9,16,36,49,64,81,100]
-# for val in list:
-#     print(val)
+Q1
+list = [1,4,9,16,36,49,64,81,100]
+for val in list:
+    print(val)
 
 
 #Q2 find number (normal method)
