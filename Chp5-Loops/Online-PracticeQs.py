@@ -130,3 +130,4 @@
 num = [10, 20, 30, 40, 50, 10,30,40,50,30]
 new_list= list(set(num))
 print(new_list)
+
