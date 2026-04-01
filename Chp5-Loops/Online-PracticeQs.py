@@ -100,11 +100,33 @@
 # print("sum of all no.: ",total)
 
 #Find max number
-nums = [10, 20, 30, 40, 50]
-max_num = nums[0]
-for num in nums:
-    if num > max_num:
-        max_num = num
+# nums = [10, 20, 30, 40, 50]
+# max_num = nums[0]
+# for num in nums:
+#     if num > max_num:
+#         max_num = num
 
-print("Max number is:",max_num)
-    
+# print("Max number is:",max_num)
+
+#Count elements greater than 25
+# nums = [10, 20, 30, 40, 50]
+# num_count = 0
+# for number in nums:
+#     if number > 25:
+#         num_count += 1
+
+# print("Count is: ", num_count)
+
+#Remove duplicates from list
+#method 1
+# list = [10, 20, 30, 40, 50, 10,30,40,50,30]
+# new_list= []
+# for num in list:
+#     if num not in new_list:
+#         new_list.append(num)
+# print("New list is: ", new_list)
+
+#method 2
+num = [10, 20, 30, 40, 50, 10,30,40,50,30]
+new_list= list(set(num))
+print(new_list)
