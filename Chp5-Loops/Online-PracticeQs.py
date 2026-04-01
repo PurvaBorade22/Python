@@ -93,8 +93,18 @@
 #     print("List is not palindrome")
 
 #Find sum of elements
+# nums = [10, 20, 30, 40, 50]
+# total = 0
+# for num in nums:
+#     total = total + num
+# print("sum of all no.: ",total)
+
+#Find max number
 nums = [10, 20, 30, 40, 50]
-total =0
+max_num = nums[0]
 for num in nums:
-    total = total + num
-print("sum of all no.: ",total)
+    if num > max_num:
+        max_num = num
+
+print("Max number is:",max_num)
+    
