@@ -83,11 +83,18 @@
 
 #Check if string is palindrome
 
-list1 = [1,2,3]
-list1_copy =list1.copy()
-list1_copy.reverse()
+# list1 = [1,2,3]
+# list1_copy =list1.copy()
+# list1_copy.reverse()
 
-if list1_copy == list1:
-    print("List is palindrome")
-else:
-    print("List is not palindrome")
+# if list1_copy == list1:
+#     print("List is palindrome")
+# else:
+#     print("List is not palindrome")
+
+#Find sum of elements
+nums = [10, 20, 30, 40, 50]
+total =0
+for num in nums:
+    total = total + num
+print("sum of all no.: ",total)
