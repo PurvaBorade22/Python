@@ -49,13 +49,25 @@
 #         print(i)
 
 #count how many even and odd 
-n= 50
-even_count = 0
-odd_count = 0
-for i in range(1,n+1):
-    if i%2 == 0:
-        even_count +=1
-    else:
-        odd_count += 1
-print("Count of even numbers is:", even_count)
-print("Count of odd number is:",odd_count)
+# n= 50
+# even_count = 0
+# odd_count = 0
+# for i in range(1,n+1):
+#     if i%2 == 0:
+#         even_count +=1
+#     else:
+#         odd_count += 1
+# print("Count of even numbers is:", even_count)
+# print("Count of odd number is:",odd_count)
+
+#Count number of vowels in a string
+
+string =("Purva")
+vowels = ["a","e","i","o","u"]
+vowels_count = 0
+
+for ch in string:
+    if ch.lower() in vowels:
+        vowels_count += 1
+
+print("No. of vowels:",vowels_count)
