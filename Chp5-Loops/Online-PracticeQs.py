@@ -62,12 +62,21 @@
 
 #Count number of vowels in a string
 
-string =("Purva")
-vowels = ["a","e","i","o","u"]
-vowels_count = 0
+# string =("Purva")
+# vowels = ["a","e","i","o","u"]
+# vowels_count = 0
 
-for ch in string:
-    if ch.lower() in vowels:
-        vowels_count += 1
+# for ch in string:
+#     if ch.lower() in vowels:
+#         vowels_count += 1
 
-print("No. of vowels:",vowels_count)
+# print("No. of vowels:",vowels_count)
+
+#Reverse a string using loop
+
+string = input("Enter a string: ")
+reversed_string = ""
+
+for char in string:
+    reversed_string = char + reversed_string
+print("Reversed string is:",reversed_string)
