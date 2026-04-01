@@ -74,9 +74,20 @@
 
 #Reverse a string using loop
 
-string = input("Enter a string: ")
-reversed_string = ""
+# string = input("Enter a string: ")
+# reversed_string = ""
 
-for char in string:
-    reversed_string = char + reversed_string
-print("Reversed string is:",reversed_string)
+# for char in string:
+#     reversed_string = char + reversed_string
+# print("Reversed string is:",reversed_string)
+
+#Check if string is palindrome
+
+list1 = [1,2,3]
+list1_copy =list1.copy()
+list1_copy.reverse()
+
+if list1_copy == list1:
+    print("List is palindrome")
+else:
+    print("List is not palindrome")
