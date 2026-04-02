@@ -127,7 +127,15 @@
 # print("New list is: ", new_list)
 
 #method 2
-num = [10, 20, 30, 40, 50, 10,30,40,50,30]
-new_list= list(set(num))
-print(new_list)
+# num = [10, 20, 30, 40, 50, 10,30,40,50,30]
+# new_list= list(set(num))
+# print(new_list)
 
+#Print only valid URLs (hint: check "." in url)
+urls = ["google.com", "test.com", "invalid", "purva.com", "college.edu", "borade","hello"]
+for url in urls:
+    if "." in url:
+        print("valid url is:", url)
+    # else:
+    #     print("invalid urls: ",url)
+    
