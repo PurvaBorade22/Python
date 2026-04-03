@@ -9,5 +9,6 @@
 #Average of 3 numbers
 def average(a,b,c):
     s = a+b+c/3
-    return s
+    sum = s/3
+    return sum
 print("average of 3 number is:",average(2,3,4))
