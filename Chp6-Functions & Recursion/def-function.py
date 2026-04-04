@@ -12,3 +12,9 @@ def average(a,b,c):
     sum = s/3
     return sum
 print("average of 3 number is:",average(2,3,4))
+
+#Default parameter
+def cal_prod(a,b)
+    print(a *b)
+    return a*b
+cal_prod()
