@@ -20,7 +20,19 @@
 
 #R+ mode ->overwrite
 
-f = open("D:\PURVA\Python\Python\Chp7-File_Input&Output\demo.txt","r+")
-f.write("abc")
+# f = open("D:\PURVA\Python\Python\Chp7-File_Input&Output\demo.txt","r+")
+# f.write("abc")
+# print(f.read())
+# f.close()
+
+#W+ mode
+# f = open("D:\PURVA\Python\Python\Chp7-File_Input&Output\demo.txt","w+")
+# print(f.read())
+# f.write("Hello")
+# f.close()
+
+#a+ mode
+f = open("D:\PURVA\Python\Python\Chp7-File_Input&Output\demo.txt","a+")
 print(f.read())
+f.write("\nHello")
 f.close()
