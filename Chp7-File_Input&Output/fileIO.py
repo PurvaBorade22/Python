@@ -32,7 +32,11 @@
 # f.close()
 
 #a+ mode
-f = open("D:\PURVA\Python\Python\Chp7-File_Input&Output\demo.txt","a+")
-print(f.read())
-f.write("\nHello")
-f.close()
+# f = open("D:\PURVA\Python\Python\Chp7-File_Input&Output\demo.txt","a+")
+# print(f.read())
+# f.write("\nHello")
+# f.close()
+
+#Delete mode
+import os
+os.remove("D:\PURVA\Python\Python\Chp7-File_Input&Output\sample.txt")
