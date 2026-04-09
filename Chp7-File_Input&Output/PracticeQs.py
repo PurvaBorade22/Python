@@ -27,17 +27,31 @@
 # check_for_word()
 
 #Q4
-def check_for_line():
-    word = "like"
-    data = True
-    line_no = 1
-    with open("practice.txt","r") as f:
-        while data:
-            data = f.readline()
-            if(word in data):
-                print(line_no)
-                return
-            line_no += 1
+# def check_for_line():
+#     word = "like"
+#     data = True
+#     line_no = 1
+#     with open("practice.txt","r") as f:
+#         while data:
+#             data = f.readline()
+#             if(word in data):
+#                 print(line_no)
+#                 return
+#             line_no += 1
     
-    return -1
-check_for_line()
+#     return -1
+# check_for_line()
+
+
+
+#Q5 find count of even numbers using split method
+even_count = 0
+with open("practice.txt","r") as f:
+    data = f.read()
+
+    num = data.split(",")
+    for val in num:
+        if(int(val) %2 == 0):
+            even_count += 1
+
+print(even_count)   
