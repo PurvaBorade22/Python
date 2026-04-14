@@ -18,22 +18,38 @@
 
 
 #Q2
-class Employee:
-    def __init__(self,role,dep,sal):
-        self.role = role
-        self.dep = dep
-        self.sal = sal
+# class Employee:
+#     def __init__(self,role,dep,sal):
+#         self.role = role
+#         self.dep = dep
+#         self.sal = sal
 
-    def showDetails(self):
-        print("Role:", self.role)
-        print("Department:", self.dep)
-        print("Salary:", self.sal)
+#     def showDetails(self):
+#         print("Role:", self.role)
+#         print("Department:", self.dep)
+#         print("Salary:", self.sal)
         
-class Engineer(Employee):
-    def __init__(self,name,age):
-        self.name = name
-        self.age = age
-        super().__init__("Software Tester","IT", "60,000")
+# class Engineer(Employee):
+#     def __init__(self,name,age):
+#         self.name = name
+#         self.age = age
+#         super().__init__("Software Tester","IT", "60,000")
 
-emp1 = Engineer("Purva",22)
-emp1.showDetails()
+# emp1 = Engineer("Purva",22)
+# emp1.showDetails()
+
+
+#Q3
+class Order:
+    def __init__(self, item,price):
+        self.item = item
+        self.price = price
+
+    def __gt__(self,odr2):
+        return self.price > odr2.price
+
+odr1 = Order("pizza",200)
+odr2 = Order("Burger",100)
+
+print(odr1 > odr2)
+
